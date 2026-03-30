@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+.expo
+.vercel
+coverage
+apps/web/dist
+apps/web/.vite
+apps/mobile/.expo
+apps/mobile/android
+apps/mobile/ios

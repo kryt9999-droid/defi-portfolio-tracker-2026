@@ -1,0 +1,15 @@
+{
+  "name": "defi-portfolio-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @defi/shared && npm run build -w @defi/web",
+    "dev:web": "npm run dev -w @defi/web",
+    "dev:mobile": "npm run start -w @defi/mobile",
+    "typecheck": "npm run typecheck -w @defi/shared && npm run typecheck -w @defi/web && npm run typecheck -w @defi/mobile"
+  }
+}
